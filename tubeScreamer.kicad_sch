@@ -3024,6 +3024,12 @@
 		(uuid "5e5f536e-4b0d-4a3e-b3dc-856247970de3")
 	)
 	(junction
+		(at 121.92 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6395e121-dc04-46f7-99b5-5d0cb4a784ba")
+	)
+	(junction
 		(at 106.68 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3076,12 +3082,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab0396de-4adf-4bf6-9f37-2d48d7e3c67f")
-	)
-	(junction
-		(at 121.92 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad5e89df-56a1-4711-9b19-4897c18c0925")
 	)
 	(junction
 		(at 62.23 85.09)
@@ -3397,16 +3397,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d615e1-26e6-4bb1-bf8c-7185ac47ab3f")
-	)
-	(wire
-		(pts
 			(xy 33.02 40.64) (xy 33.02 44.45)
 		)
 		(stroke
@@ -3474,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "4574b771-7119-4cde-8b68-4ce1afedba90")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 118.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f0d364-3f73-4b93-b750-1d472b13a6f7")
 	)
 	(wire
 		(pts
@@ -3957,16 +3957,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 133.35) (xy 114.3 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be56042-52a6-45f4-b943-68fdf1ea36f8")
-	)
-	(wire
-		(pts
 			(xy 121.92 101.6) (xy 121.92 91.44)
 		)
 		(stroke
@@ -4074,6 +4064,16 @@
 			(type default)
 		)
 		(uuid "bbea9b49-1194-4675-9f05-3a8f08ad43a0")
+	)
+	(wire
+		(pts
+			(xy 121.92 121.92) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b4cda0-e759-457f-bf0c-c9849ac39c4e")
 	)
 	(wire
 		(pts
@@ -7946,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Potentiometer_P120PK-Y25BR10K"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Nxxxx"
 			(at 121.92 133.35 0)
 			(effects
 				(font
